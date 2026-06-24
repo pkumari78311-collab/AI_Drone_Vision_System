@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# YOLO outputs
+runs/
+
+# Large model files
+yolov8n.pt
+
+# Images generated during testing
+*.jpg
+*.png
+!screenshots/*.png
+
+# AirSim temporary files
+*.log

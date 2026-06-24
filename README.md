@@ -63,25 +63,27 @@ The project was developed as a practical application of:
 
 ## 📂 Project Structure
 
+## Project Structure
+
+```
 AI_Drone_Vision_System/
-
-├── drone/
-
-│ ├── main_live.py
-
-│ ├── yolo_live.py
-
-│ ├── drone_brain.py
-
-│ ├── virtual_drone.py
-
-│ ├── connet_drone.py
-
-│ └── other project files
-
+│
 ├── README.md
+├── screenshots/
+│   └── yolo_detection.png
+│
+├── drone/
+│   ├── main_live.py
+│   ├── yolo_live.py
+│   ├── drone_brain.py
+│   ├── virtual_drone.py
+│   ├── airsim_drone.py
+│   └── ...
+│
+├── images/
+└── runs/
+```
 
----
 
 ## 🚀 How It Works
 
@@ -193,3 +195,11 @@ The project involved:
 ### YOLOv8 Object Detection
 
 ![YOLO Detection](screenshots/yolo_detection.png)
+
+### AirSim Drone Simulation
+
+![AirSim](screenshots/airsim.png)
+
+### Autonomous Navigation Output
+
+![Output](screenshots/output.png)
