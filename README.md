@@ -188,3 +188,8 @@ The project involved:
 - OpenCV Community
 - Microsoft AirSim
 - Python Open Source Community
+## 📸 Project Screenshots
+
+### YOLOv8 Object Detection
+
+![YOLO Detection](screenshots/yolo_detection.png)
